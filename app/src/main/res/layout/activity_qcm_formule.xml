@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <io.github.kexanie.library.MathView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        auto:engine="KaTeX"
+        android:gravity="center"
+        android:id="@+id/plage_de_texte_formule"
+        android:layout_marginTop="30dp">
+    </io.github.kexanie.library.MathView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/image_retour"
+            android:id="@+id/retour_formule"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/image_suivant"
+            android:id="@+id/suivant"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image_home"
+        android:id="@+id/menu_bis"/>
+
+</LinearLayout>

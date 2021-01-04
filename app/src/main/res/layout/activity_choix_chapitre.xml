@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choisissez un chapitre dans le menu déroullant :"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+    
+    <Spinner
+        android:id="@+id/spinner0"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right"
+        android:src="@drawable/image_retour"
+        android:id="@+id/retour_choix_selection"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

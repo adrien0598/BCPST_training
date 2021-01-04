@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BCPST_training</string>
+    <string name="vide_svt">svt : vide</string>
+    <string name="vide_physique">physique : vide mais bon</string>
+    <string name="vide_chimie">chimie : vide</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string-array name="choix_du_chapitre_svt">
+        <item>I</item>
+        <item>I-A</item>
+        <item>I-B</item>
+        <item>I-C</item>
+        <item>II</item>
+        <item>II-A</item>
+        <item>II-B</item>
+        <item>II-C</item>
+        <item>II-D</item>
+        <item>II-E</item>
+        <item>II-F</item>
+        <item>III</item>
+        <item>III-A</item>
+        <item>III-B</item>
+        <item>IV</item>
+        <item>IV-A</item>
+        <item>IV-B</item>
+        <item>IV-C</item>
+        <item>IV-D</item>
+        <item>IV-E</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VI-A</item>
+        <item>VI-B</item>
+        <item>VI-C</item>
+        <item>VII</item>
+        <item>VII-A</item>
+        <item>VII-B</item>
+    </string-array>
+</resources>
