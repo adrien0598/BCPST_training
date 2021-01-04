@@ -1,0 +1,2 @@
+rootProject.name='BCPST_training'
+include ':app', ':MathView-0.0.6'
